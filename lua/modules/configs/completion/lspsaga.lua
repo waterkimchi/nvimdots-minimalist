@@ -91,7 +91,7 @@ return function()
 		},
 		-- Impl: https://nvimdev.github.io/lspsaga/implement/
 		implement = {
-			enable = true,
+			enable = false,
 			sign = true,
 			virtual_text = false,
 			priority = 100,

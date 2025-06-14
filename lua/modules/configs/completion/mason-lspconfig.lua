@@ -12,8 +12,8 @@ M.setup = function()
 
 	vim.diagnostic.config({
 		signs = true,
-		underline = false,
-		virtual_text = false,
+		underline = true,
+		virtual_text = true,
 		virtual_lines = diagnostics_virtual_lines and {
 			severity = {
 				min = vim.diagnostic.severity[diagnostics_level],

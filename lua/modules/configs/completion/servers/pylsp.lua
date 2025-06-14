@@ -27,9 +27,10 @@ return {
 						E501 = "I",
 					},
 				},
-				flake8 = { enabled = false },
+				pylint = { enabled = true },
+				flake8 = { enabled = true },
 				pyflakes = { enabled = false },
-				pycodestyle = { enabled = false },
+				pycodestyle = { enabled = true },
 				mccabe = { enabled = false },
 
 				-- Code refactor
@@ -38,7 +39,7 @@ return {
 				-- Formatting
 				black = { enabled = true },
 				pyls_isort = { enabled = false },
-				autopep8 = { enabled = false },
+				autopep8 = { enabled = true },
 				yapf = { enabled = false },
 			},
 		},

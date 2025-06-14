@@ -10,11 +10,9 @@ ui["akinsho/bufferline.nvim"] = {
 	event = { "BufReadPre", "BufAdd", "BufNewFile" },
 	config = require("ui.bufferline"),
 }
-ui["Jint-lzxy/nvim"] = {
+ui["sainnhe/gruvbox-material"] = {
 	lazy = false,
-	branch = "refactor/syntax-highlighting",
-	name = "catppuccin",
-	config = require("ui.catppuccin"),
+	config = require("ui.gruvbox-material"),
 }
 ui["lewis6991/gitsigns.nvim"] = {
 	lazy = true,
@@ -25,11 +23,6 @@ ui["lukas-reineke/indent-blankline.nvim"] = {
 	lazy = true,
 	event = { "CursorHold", "CursorHoldI" },
 	config = require("ui.indent-blankline"),
-}
-ui["nvim-lualine/lualine.nvim"] = {
-	lazy = true,
-	event = { "BufReadPost", "BufAdd", "BufNewFile" },
-	config = require("ui.lualine"),
 }
 ui["karb94/neoscroll.nvim"] = {
 	lazy = true,

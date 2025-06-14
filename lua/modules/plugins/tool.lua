@@ -12,14 +12,6 @@ tool["tpope/vim-fugitive"] = {
 -- 	cond = vim.fn.executable("fcitx5-remote") == 1,
 -- 	config = require("tool.fcitx5"),
 -- }
-tool["Bekaboo/dropbar.nvim"] = {
-	lazy = false,
-	config = require("tool.dropbar"),
-	dependencies = {
-		"nvim-tree/nvim-web-devicons",
-		"nvim-telescope/telescope-fzf-native.nvim",
-	},
-}
 tool["nvim-tree/nvim-tree.lua"] = {
 	lazy = true,
 	cmd = {
