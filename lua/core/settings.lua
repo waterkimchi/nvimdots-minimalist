@@ -116,6 +116,7 @@ settings["lsp_deps"] = {
 	"gopls",
 	"ruff",
 	"ts_ls",
+	"graphql",
 }
 
 -- Set the general-purpose servers that will be installed during bootstrap here.
